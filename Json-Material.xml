@@ -1,0 +1,30 @@
+<NotepadPlus>
+    <UserLang name="JSON Material" ext="json" udlVersion="2.1">
+       <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="2" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="yes" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators">, :</Keywords>
+            <Keywords name="Delimiters">00" 01\ 02((EOL "))</Keywords>
+            <Keywords name="Keywords1">null true false</Keywords>
+            <Keywords name="Keywords2">{ } [ ] {} []</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="B0BEC5" bgColor="263238" colorStyle="0" fontName="" fontStyle="0" nesting="0" /> <!-- Light gray text for default content -->
+            <WordsStyle name="NUMBERS" fgColor="FFB74D" bgColor="263238" fontStyle="0" nesting="0" /> <!-- Soft amber for numbers -->
+            <WordsStyle name="OPERATORS" fgColor="FF7043" bgColor="263238" fontStyle="0" /> <!-- Soft coral for operators -->
+            <WordsStyle name="DELIMITERS1" fgColor="81C784" bgColor="263238" colorStyle="1" fontName="" fontStyle="0" nesting="0" /> <!-- Soft green for delimiters -->
+            <WordsStyle name="KEYWORDS1" fgColor="4FC3F7" bgColor="263238" fontStyle="0" nesting="0" /> <!-- Light cyan for true, false, null -->
+            <WordsStyle name="KEYWORDS2" fgColor="FFEB3B" bgColor="263238" fontStyle="0" nesting="0" /> <!-- Soft yellow for {} [] -->
+        </Styles>
+    </UserLang>
+</NotepadPlus>
